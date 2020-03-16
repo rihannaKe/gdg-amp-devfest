@@ -1,0 +1,367 @@
+<!doctype html>
+<html ⚡ lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="canonical" href="ampconf.html">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
+  <title>DevFest Roma 2020</title>
+
+  <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-latest.js"></script>
+  <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+  <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+  <script async custom-element="amp-story-auto-ads" src="https://cdn.ampproject.org/v0/amp-story-auto-ads-0.1.js"></script>
+
+  <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+  <noscript>
+    <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+  </noscript>
+  <style amp-custom>
+    * {
+      box-sizing: border-box;
+    }
+    amp-story * {
+      font-family: 'Helvitica Nueve', sans-serif;
+      color: white;
+    }
+    amp-story-page {
+      background: white;
+    }
+    amp-story h1 {
+      font-size: 2.875rem;
+    }
+    amp-story h2 {
+      font-size: 2.25rem;
+    }
+    amp-story p {
+      line-height: 1.5;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .bottom {
+      align-content: end;
+    }
+    .medium {
+      font-weight: 600;
+    }
+    .first {
+      padding-top: 8.83vh;
+    }
+    .last {
+      padding-bottom: 8.83vh;
+    }
+    .blue {
+      color: #4285f4;
+    }
+    .torquise {
+      color: #35a9c5;
+    }
+    .twenty-px {
+      font-size: 1.25rem;
+    }
+    .center {
+      text-align: center;
+    }
+    .right {
+      text-align: right;
+    }
+    .icon {
+      background-image: url('./media/gdgLogo.png');
+      background-repeat: no-repeat;
+      background-size: 4.25rem 4.25rem;
+      height: 4.25rem;
+      object-fit: contain;
+      /*width: 4.25rem;*/
+    }
+    .byline {
+      letter-spacing: 0.08rem;
+      padding-bottom: 7.88vh;
+    }
+    .introducing p {
+      line-height: 2.625em;
+    }
+    .introducing h2 {
+      line-height: 1.17em;
+    }
+    .subtitle-page {
+      padding-top: 10.87vh;
+    }
+    .button {
+      align-items: center;
+      border: 0.25rem solid #fff;
+      color: #fff;
+      display: flex;
+      margin: 0 auto;
+      max-width: 75%;
+      text-decoration: none;
+    }
+    .button p {
+      width: 100%;
+    }
+    amp-ad[template="image-template"] img {
+      object-fit: cover;
+    }
+
+    ::cue {
+      background-color: rgba(0, 0, 0, 0.75);
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+
+
+
+    #page-1 {
+      background-color: #71311c;
+    }
+
+    #page-1[active] .bkgd {
+      animation-name: coverPan;
+      animation-duration: 30s;
+      animation-iteration-count: 1;
+      animation-direction: normal;
+      animation-fill-mode: forwards;
+      animation-play-state: running;
+      animation-timing-function: ease-out;
+    }
+
+    #page-1 .gradient {
+      background: linear-gradient(to bottom, transparent 0%, transparent 34%, black 100%);
+    }
+
+    #page-1 .copy-layer {
+      margin: 0 auto;
+      padding: 0 14vw 12vw;
+      align-content: flex-end;
+    }
+
+    #page-1 h1 {
+      color: #fff;
+      font-size: 19.4vw;
+      font-weight: 700;
+      font-family: 'Josefin Sans', sans-serif;
+      line-height: 20vw;
+    }
+
+    #page-1 .horiz {
+      padding: 0 2vw;
+      font-size: 7.5vw;
+      font-weight: 700;
+      font-style: italic;
+      font-family: 'Tienne', serif;
+    }
+
+    #page-1 .yellow {
+      font-size: 25vw;
+      display: block;
+    }
+
+    #page-1 p {
+      font-size: 4.2vw;
+      line-height: 6.3vw;
+      text-align: left;
+      padding: 0 3vw;
+    }
+
+    @keyframes coverPan {
+      0% {
+        transform: translate(2.5rem, -4.1875rem) scale(1.25);
+      }
+
+      100% {
+        transform: translate(-2.5rem, -0.625rem) scale(1.35);
+      }
+    }
+
+  </style>
+</head>
+  <body>
+    <amp-story standalone id="cats"
+        title="DevFest Roma 2020"
+        publisher="GDG Roma & WTM Roma"
+        publisher-logo-src="./media/AMP-Brand-White-Icon.svg"
+        poster-portrait-src="./media/page1/colosseo2.jpg">
+
+      <amp-story-page id="page-1">
+        <amp-story-grid-layer template="fill">
+        <amp-story-grid-layer template="fill">
+          <amp-img class="bkgd" src="./media/page1/colosseo2.jpg" width="720" height="1280" layout="responsive">
+          </amp-img>
+          <div style="background-color:#35a9c5d1"></div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="fill" class="gradient"></amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="copy-layer">
+          <amp-img animate-in="fly-in-left" src="./media/gdgL.png" width="220" height="80" animate-in-duration="0.55s" animate-in-delay="0.35s"></amp-img>
+          <h2 class="center" animate-in="fly-in-left" animate-in-duration="0.55s" animate-in-delay="0.75s">& </h2>
+          <amp-img animate-in="fly-in-left" src="./media/wtmL.png" width="230" height="80" animate-in-duration="1s" animate-in-delay="0.35s"></amp-img>
+          <h2 animate-in="fly-in-bottom"
+              animate-in-duration="0.55s"
+              animate-in-delay="1.80s" class="bold">Presents</h2>
+          <h2 class="copy bold" animate-in="fade-in" animate-in-duration="1s" animate-in-delay="1.75s">
+            DevFest Roma 2020
+          </h2>
+
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-2">
+        <amp-story-grid-layer template="fill">
+          <!--amp-img width="400" height="750" layout="fill" src="./media/overview.jpg"></amp-img-->
+          <amp-video autoplay loop
+            width="400"
+            height="750"
+            poster="./media/page3/devfest_cover.png"
+            layout="fill">
+            <source src="./media/page2/wel_DevFest.mp4" type="video/mp4">
+          </amp-video>
+          <div style="background-color:#35a9c5d1"></div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <h2 class="bold" animate-in="fly-in-bottom"
+                           animate-in-duration="0.55s"
+                           animate-in-delay="0.35s" >What's Devfest?</h2>
+          <p class="bold">DevFests are community-led, developer events hosted by GDG chapters around
+            the globe focused on community building and learning about Google’s technologies.</p>
+          <p class="last bold">GDG Roma and WTM Roma are proud to announce DevFest Roma 2020 </p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-3">
+        <amp-story-grid-layer template="fill">
+          <amp-img width="200" height="205"   layout="responsive" src="./media/page3/splash.png"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="center bottom">
+          <div class="introducing">
+            <h2 class="bold torquise" animate-in="fly-in-bottom"
+                             animate-in-duration="0.55s"
+                             animate-in-delay="0.35s">1 day of  </h2>
+            <hr/>
+            <h2 class="bold torquise" animate-in="fade-in" animate-in-duration="0.75s" animate-in-delay="0.75s"> sessions </h2>
+            <p></p>
+            <h2 class="bold torquise" animate-in="fade-in" animate-in-duration="0.75s" animate-in-delay="1.50s"> workshops</h2>
+            <p></p>
+            <h2 class="bold torquise" animate-in="fade-in" animate-in-duration="0.75s" animate-in-delay="2.25s"> showcases </h2>
+              <p></p>
+            <h2 class="bold torquise" animate-in="fade-in" animate-in-duration="0.75s" animate-in-delay="2.50s"> ON </h2>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-4">
+        <amp-story-grid-layer template="fill">
+          <h2 class="bold torquise" animate-in="fly-in-bottom" style="margin-top: 30px;margin-left:25px"
+                           animate-in-duration="0.55s"
+                           animate-in-delay="0.35s"> CLOUD  </h2>
+          <!--amp-img width="400" height="750" layout="fill" src="./media/blue-stuff.jpg"></amp-img-->
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-left" animate-in-duration="0.75s" animate-in-delay="0.75s" src="./media/page4/hr.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="0.75s" src="./media/page4/splash.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="1s" src="./media/page4/1.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="1.20s" src="./media/page4/2.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="1.40s" src="./media/page4/3.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="1.60s" src="./media/page4/4.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="1.80s" src="./media/page4/5.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="2s" src="./media/page4/6.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="2.20s" src="./media/page4/7.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="2.40s" src="./media/page4/8.png"></amp-img>
+          <amp-img width="400" height="750" layout="fill" animate-in="fly-in-top" animate-in-duration="0.75s" animate-in-delay="2.60s" src="./media/page4/9.png"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bottom">
+
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-5">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+            width="400"
+            height="750"
+            poster="./media/page1/colosseo2.jpg"
+            layout="fill">
+            <!--source src="./video/gmail-animation.mp4" type="video/mp4"-->
+            <source src="https://media.giphy.com/media/8VkgrPdxMh0oo/giphy.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical">
+          <div class="introducing">
+            <h2 class="bold right">Mobile</h2>
+            <amp-img width="400" height="750" layout="fill" animate-in="fly-in-left" animate-in-duration="0.75s" animate-in-delay="0.75s" src="./media/page4/hr.png"></amp-img>
+          </div>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-7">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+            width="400"
+            height="750"
+            poster="./media/page1/colosseo2.jpg"
+            layout="fill">
+            <!--source src="./video/gmail-animation.mp4" type="video/mp4"-->
+            <source src="https://media.giphy.com/media/2ikwIgNrmPZICNmRyX/giphy.mp4" type="video/mp4">
+          </amp-video>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="">
+            <h2 class="bold right torquise">Web</h2>
+            <amp-img width="400" height="750" layout="fill" animate-in="fly-in-left" animate-in-duration="0.75s" animate-in-delay="0.75s" src="./media/page4/hr.png"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-8">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+            width="400"
+            height="750"
+            poster="./media/page1/colosseo2.jpg"
+            layout="fill">
+            <!--source src="./video/gmail-animation.mp4" type="video/mp4"-->
+            <source src="https://media.giphy.com/media/6oeRBKg7mwEZnSnYkn/giphy.mp4" type="video/mp4">
+          </amp-video>
+          <div style="background-color:#35a9c5d1"></div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="">
+            <h2 class="bold right">& ...more</h2>
+            <amp-img width="400" height="750" layout="fill" animate-in="fly-in-left" animate-in-duration="0.75s" animate-in-delay="0.75s" src="./media/page4/hr.png"></amp-img>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <amp-story-page id="page-9">
+        <amp-story-grid-layer template="fill">
+          <amp-video autoplay
+            id="gmail-vid"
+            width="400"
+            height="750"
+            poster="./media/page1/colosseo2.jpg"
+            layout="fill">
+            <source src="https://media.giphy.com/media/YDva3rGrkwD6g/giphy.mp4" type="video/mp4">
+          </amp-video>
+            <div style="background-color:#35a9c5d1"></div>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds" class="bottom">
+          <h1 grid-area="middle-third" class="bold">Join as in Rome on January</h1>
+        </amp-story-grid-layer>
+        <amp-story-cta-layer>
+          <a href="https://www.meetup.com/it-IT/GDG-Roma/" class="button medium center">
+            <p class="twenty-px">Call for papers are now open</p>
+          </a>
+        </amp-story-cta-layer>
+      </amp-story-page>
+
+      <!--amp-story-page id="page-10">
+        <amp-story-grid-layer template="fill">
+
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="thirds" class="bottom">
+          <h1 grid-area="middle-third" class="bold">Join as in Rome on January</h1>
+        </amp-story-grid-layer>
+        <amp-story-cta-layer>
+          <a href="https://www.meetup.com/it-IT/GDG-Roma/" class="button medium center">
+            <p class="twenty-px">Call for papers are now open</p>
+          </a>
+        </amp-story-cta-layer>
+      </amp-story-page-->
+
+      <amp-story-bookend src="./bookendv1.json" layout="nodisplay">
+      </amp-story-bookend>
+    </amp-story>
+  </body>
+</html>

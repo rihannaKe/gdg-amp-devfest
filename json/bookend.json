@@ -1,0 +1,40 @@
+{
+  "bookend-version": "v1.0",
+  "share-providers": [
+    "email",
+    {
+      "provider": "facebook",
+      "app-id": "604181370"},
+    "whatsapp",
+    "twitter"
+  ],
+  "components": [
+    {
+      "type": "small",
+      "title": "Learn about DevFest Roma",
+      "url": "hello-world.html",
+      "image": "http://placehold.it/256x128"
+    },
+    {
+      "type": "landscape",
+      "title": "Learn about DevFest Roma",
+      "url": "hello-world.html",
+      "image": "http://placehold.it/256x128"
+    },
+    {
+      "type": "portrait",
+      "title": "Learn about DevFest Roma",
+      "url": "hello-world.html",
+      "image": "http://placehold.it/256x128"
+    },
+    {
+     "type": "cta-link",
+     "links": [
+       {
+         "text": "Learn more",
+         "url": "https://www.meetup.com/it-IT/GDG-Roma/"
+       }
+     ]
+   }
+  ]
+}
